@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "author": "Jose Correa Morales",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "wokwi-pi-pico",
+        "id": "pico",
+        "top": -24.59,
+        "left": -168.7,
+        "attrs": { "env": "micropython-20230426-v1.20.0" }
+      },
+      {
+        "type": "wokwi-stepper-motor",
+        "id": "stepper1",
+        "top": -77.89,
+        "left": -8.87,
+        "attrs": { "size": "17" }
+      }
+    ],
+    "connections": [
+      [ "pico:GP19", "stepper1:A+", "green", [ "h146.35", "v-34.89" ] ],
+      [ "stepper1:B+", "pico:GP18", "yellow", [ "v42.57", "h2.85" ] ],
+      [ "stepper1:B-", "pico:GP16", "cyan", [ "v70.02", "h4.68" ] ],
+      [ "stepper1:A-", "pico:GP17", "magenta", [ "v59.35", "h5.27" ] ]
+    ],
+    "dependencies": {}
+  }
