@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "author": "Jose Correa Morales",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "wokwi-pi-pico",
+        "id": "pico",
+        "top": -30.68,
+        "left": -62.39,
+        "attrs": { "env": "micropython-20230426-v1.20.0" }
+      },
+      {
+        "type": "wokwi-ntc-temperature-sensor",
+        "id": "ntc1",
+        "top": -1.79,
+        "left": 40.42,
+        "rotate": 90,
+        "attrs": {}
+      }
+    ],
+    "connections": [
+      [ "pico:3V3", "ntc1:VCC", "red", [ "h36.65", "v107.01", "h2.35" ] ],
+      [ "ntc1:GND", "pico:GND.7", "black", [ "v55.6", "h-88.07", "v-112.26" ] ],
+      [ "ntc1:OUT", "pico:GP27", "green", [ "v37.97", "h-75.24", "v-84.64" ] ]
+    ],
+    "dependencies": {}
+  }
