@@ -2,15 +2,16 @@ from dth import DHT11
 from machine import Pin
 from time import sleep
 
-sensor = DHT11(Pin(16))
-temp = 0
+global temp
+global hum
 
-humedad = 0
+pin = DHT11(0, Pin.IN)
+d = DHT11(pin)
 
 while True:
-    sleep(3)
-    sensor.measure()
-    temp = sensor.temperature()
-    humedad = sensor.humidity()
+    sleep(5)
+    d.measure()
+    temp = d.temperature()
+    hum = d.humidity()
     print(f"temperatura : {temp}" )
-    print(f"humedad : {humedad}" )
+    print(f"humedad : {hum}" )
