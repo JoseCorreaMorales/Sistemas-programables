@@ -401,3 +401,4 @@ FodyWeavers.xsd
 ./vscode
 /.vscode
 .vscode/
+/Interfaces/InterfazSerial/target/
