@@ -10,7 +10,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 ## Practicas
 - ## 📨 [Comunicación Serial](./Comunicacion%20Serial/main.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo regreso en mayusculas.
 
 <details>
@@ -26,7 +26,7 @@ En esta practica se realizo la comunicacion serial entre la raspberry pi pico y 
 
 
 - ## 🌤️ [DHT](./dht/dht.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la lectura de un sensor de temperatura y humedad, en el cual presenta la información en terminal.
 
 <details>
@@ -43,7 +43,7 @@ En esta practica se realizo la lectura de un sensor de temperatura y humedad, en
 
 
 - ## 🖥️💻⌨️⌨ [Interfaz Serial](./InterfazSerial/src/main/java/mx/tecnm/cdhidalgo/interfazserial/TerminalSerial.java)
-### Descripcion
+### Descripción
 En esta practica se realizo una interfaz grafica en java para la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico comunicandose por medio de la interfaz grafica y encendiendo el led integrado en la raspberry pi pico.)  
 
 <details>
@@ -60,7 +60,7 @@ En esta practica se realizo una interfaz grafica en java para la comunicacion se
 
 
 - ## 🪴💧 [Mini Proyecto](./MiniProyectoRegadoAutomatico/regado.py)
-### Descripcion
+### Descripción
 En esta practica se realizo un sistema de regado automatico, en el cual se utilizo un sensor de humedad para detectar cuando la tierra se encuentra seca y asi encender una bomba de agua (por medio de un rele) para regar la planta.
 
 <details>
@@ -77,7 +77,7 @@ En esta practica se realizo un sistema de regado automatico, en el cual se utili
 
 
 - ## 🖥️ [Oled](./Oled/main.py) 
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla oled, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo mostro en la pantalla oled.
 
 <details>
@@ -92,7 +92,7 @@ En esta practica se realizo la comunicacion entre la raspberry pi pico y una pan
 
 
 - ## 1️⃣ 0️⃣ [Rele](./Rele/rele.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y un rele.
 
 <details>
@@ -109,7 +109,7 @@ En esta practica se realizo la comunicacion entre la raspberry pi pico y un rele
 
 
 - ## 🔴🟢🔵 [RGB](./rgb/rgb.py)
-### Descripcion
+### Descripción
 Practica para controlar un LED RGB (rojo, verde, azul) mediante modulación de ancho de pulso (PWM) en un microcontrolador. El módulo de la máquina se importa para usar sus clases Pin y PWM, y el módulo de tiempo se importa para usar su función de suspensión.
 
 La función enciende está definida para tomar tres argumentos: r, g y b. Estos argumentos representan el ciclo de trabajo de los canales rojo, verde y azul del LED, respectivamente. El ciclo de trabajo es una medida de la proporción del período total en el que una señal está activa. El método duty_u16 se utiliza para establecer el ciclo de trabajo para cada canal de color. El ciclo de trabajo se especifica como un entero sin signo de 16 bits, donde 65535 representa el ciclo de trabajo del 100 %.
@@ -125,7 +125,7 @@ La función enciende está definida para tomar tres argumentos: r, g y b. Estos 
 </details>
 
 - ## ⚙️🔧 [Servo](./Servo/servo.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y un servo motor, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el servo motor.
  
 <details>
@@ -141,7 +141,7 @@ En esta practica se realizo la comunicacion entre la raspberry pi pico y un serv
 
 
 - ## 👣👣 [Steper](./Steper/steper.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y un motor a pasos, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el motor a pasos.
 
 Ap, Am, Bp y Bm, presumiblemente correspondientes a los cuatro cables de un motor paso a paso bipolar.
@@ -185,7 +185,7 @@ La lista de pinos contiene los cuatro objetos Pin y la lista de pasos contiene c
 </details>
 
 - ## 🌡️🌡️ [Temperatura](./Temperatura/temperatura.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor de temperatura, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la temperatura.
 
 <details>
@@ -226,7 +226,7 @@ En esta practica se realizo la comunicacion entre la raspberry pi pico y un sens
 
 
 - ## 🖥️🖼️ [TFT Screen](./TFT%20screen/main.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla tft, la cual muestra una imagen (que debe estar en formato .BMP).
 
 <details>
@@ -241,7 +241,7 @@ En esta practica se realizo la comunicacion entre la raspberry pi pico y una pan
 
 
 - ## 🔈🔉🔊 [Ultrasonico](./Ultrasonico/ultrasonico.py)
-### Descripcion
+### Descripción
 En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor ultrasonico, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la distancia.
 
 <details>
