@@ -11,7 +11,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 ## Practicas
 - ## 📨 [Comunicación Serial](./Comunicacion%20Serial/main.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo regreso en mayusculas.
+En esta practica se realizo la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo regreso en mayusculas.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -27,7 +27,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🌤️ [DHT](./dht/dht.py)
 ### Descripcion
-    En esta practica se realizo la lectura de un sensor de temperatura y humedad, en el cual presenta la información en terminal.
+En esta practica se realizo la lectura de un sensor de temperatura y humedad, en el cual presenta la información en terminal.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -44,7 +44,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🖥️💻⌨️⌨ [Interfaz Serial](./InterfazSerial/src/main/java/mx/tecnm/cdhidalgo/interfazserial/TerminalSerial.java)
 ### Descripcion
-    En esta practica se realizo una interfaz grafica en java para la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico comunicandose por medio de la interfaz grafica y encendiendo el led integrado en la raspberry pi pico.)  
+En esta practica se realizo una interfaz grafica en java para la comunicacion serial entre la raspberry pi pico y la computadora, en la cual se envio un mensaje desde la computadora a la raspberry pi pico comunicandose por medio de la interfaz grafica y encendiendo el led integrado en la raspberry pi pico.)  
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -61,7 +61,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🪴💧 [Mini Proyecto](./MiniProyectoRegadoAutomatico/regado.py)
 ### Descripcion
-    En esta practica se realizo un sistema de regado automatico, en el cual se utilizo un sensor de humedad para detectar cuando la tierra se encuentra seca y asi encender una bomba de agua (por medio de un rele) para regar la planta.
+En esta practica se realizo un sistema de regado automatico, en el cual se utilizo un sensor de humedad para detectar cuando la tierra se encuentra seca y asi encender una bomba de agua (por medio de un rele) para regar la planta.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -78,7 +78,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🖥️ [Oled](./Oled/main.py) 
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla oled, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo mostro en la pantalla oled.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla oled, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta lo mostro en la pantalla oled.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -93,7 +93,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 1️⃣ 0️⃣ [Rele](./Rele/rele.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y un rele.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y un rele.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -110,9 +110,9 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🔴🟢🔵 [RGB](./rgb/rgb.py)
 ### Descripcion
-    Practica para controlar un LED RGB (rojo, verde, azul) mediante modulación de ancho de pulso (PWM) en un microcontrolador. El módulo de la máquina se importa para usar sus clases Pin y PWM, y el módulo de tiempo se importa para usar su función de suspensión.
+Practica para controlar un LED RGB (rojo, verde, azul) mediante modulación de ancho de pulso (PWM) en un microcontrolador. El módulo de la máquina se importa para usar sus clases Pin y PWM, y el módulo de tiempo se importa para usar su función de suspensión.
 
-    La función enciende está definida para tomar tres argumentos: r, g y b. Estos argumentos representan el ciclo de trabajo de los canales rojo, verde y azul del LED, respectivamente. El ciclo de trabajo es una medida de la proporción del período total en el que una señal está activa. El método duty_u16 se utiliza para establecer el ciclo de trabajo para cada canal de color. El ciclo de trabajo se especifica como un entero sin signo de 16 bits, donde 65535 representa el ciclo de trabajo del 100 %.
+La función enciende está definida para tomar tres argumentos: r, g y b. Estos argumentos representan el ciclo de trabajo de los canales rojo, verde y azul del LED, respectivamente. El ciclo de trabajo es una medida de la proporción del período total en el que una señal está activa. El método duty_u16 se utiliza para establecer el ciclo de trabajo para cada canal de color. El ciclo de trabajo se especifica como un entero sin signo de 16 bits, donde 65535 representa el ciclo de trabajo del 100 %.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -126,7 +126,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## ⚙️🔧 [Servo](./Servo/servo.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y un servo motor, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el servo motor.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y un servo motor, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el servo motor.
  
 <details>
 <summary>Diagrama - resultado</summary>
@@ -142,11 +142,11 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 👣👣 [Steper](./Steper/steper.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y un motor a pasos, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el motor a pasos.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y un motor a pasos, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta movio el motor a pasos.
 
-    Ap, Am, Bp y Bm, presumiblemente correspondientes a los cuatro cables de un motor paso a paso bipolar.
+Ap, Am, Bp y Bm, presumiblemente correspondientes a los cuatro cables de un motor paso a paso bipolar.
 
-    La lista de pinos contiene los cuatro objetos Pin y la lista de pasos contiene cuatro listas, cada una con cuatro elementos. Cada elemento de la lista de pasos representa un paso en la secuencia de alimentación de las bobinas del motor paso a paso.
+La lista de pinos contiene los cuatro objetos Pin y la lista de pasos contiene cuatro listas, cada una con cuatro elementos. Cada elemento de la lista de pasos representa un paso en la secuencia de alimentación de las bobinas del motor paso a paso.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -186,7 +186,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🌡️🌡️ [Temperatura](./Temperatura/temperatura.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor de temperatura, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la temperatura.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor de temperatura, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la temperatura.
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -227,7 +227,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🖥️🖼️ [TFT Screen](./TFT%20screen/main.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla tft, la cual muestra una imagen (que debe estar en formato .BMP).
+En esta practica se realizo la comunicacion entre la raspberry pi pico y una pantalla tft, la cual muestra una imagen (que debe estar en formato .BMP).
 
 <details>
 <summary>Diagrama - resultado</summary>
@@ -242,7 +242,7 @@ En este repositorio se encuentran las practicas realizadas en la materia de sist
 
 - ## 🔈🔉🔊 [Ultrasonico](./Ultrasonico/ultrasonico.py)
 ### Descripcion
-    En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor ultrasonico, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la distancia.
+En esta practica se realizo la comunicacion entre la raspberry pi pico y un sensor ultrasonico, en la cual se envio un mensaje desde la computadora a la raspberry pi pico y esta regreso la distancia.
 
 <details>
 <summary>Diagrama - resultado</summary>
